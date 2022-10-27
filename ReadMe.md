@@ -1,4 +1,4 @@
-# Return Ready Lab 16
+# U6S1-Creating a Class
 
 * Part A - Foundations 7.1
 * Part B - Test Driven Development
