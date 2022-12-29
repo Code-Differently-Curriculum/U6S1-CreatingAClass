@@ -1,6 +1,6 @@
 package partB.animals;
 
-import partB.animals.food.Food;
+import partB.food.Food;
 
 public class Animal {
     String speak() {

@@ -1,7 +1,8 @@
 package partB.animals;
 
 
-import partB.animals.food.Food;
+import partB.animals.Animal;
+import partB.food.Food;
 
 import java.util.ArrayList;
 import java.util.Date;

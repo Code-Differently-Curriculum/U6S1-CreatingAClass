@@ -1,9 +1,9 @@
-package partB.animals.factories;
+package partB.factories;
 
 
 import partB.animals.Cat;
-import partB.animals.storage.CatHouse;
-import partB.animals.storage.DogHouse;
+import partB.storage.CatHouse;
+import partB.storage.DogHouse;
 import partB.animals.Dog;
 
 import java.util.Date;

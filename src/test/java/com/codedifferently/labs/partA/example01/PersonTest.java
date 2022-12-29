@@ -1,4 +1,6 @@
-package partA.example01;
+package com.codedifferently.labs.partA.example01;
+
+import partA.example01.Person;
 
 public class PersonTest {
     public static void main(String[] args) {

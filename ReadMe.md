@@ -2,6 +2,7 @@
 
 * Part A - Foundations 7.1
 * Part B - Test Driven Development
+* Part C - Algorithm Challenge
 
 
 ## Part A
@@ -41,7 +42,7 @@ Take a look at the `Person` class in `partA.example01`
 2. Run `PersonTest` and see if what you expected to happen matches up.
 
 
-### Exercise 01
+### Ex 01
 
 Below is the UML for the `SavingAccountExample` class in the `partA.ex01` package.
 
@@ -54,7 +55,7 @@ Below is the UML for the `SavingAccountExample` class in the `partA.ex01` packag
 3. Complete `CheckingAccountTest` look at `SavingAccountTest` for inspiration.
 
 
-### Exercise 02
+### Ex 02
 
 * In the `partA.ex02` package complete `SavingBond` with the following requirements.
     * A person may purchase a bond for any term between 1 and 60 months
@@ -208,3 +209,33 @@ Assertions.assertEquals(age, actualAge);
 * Create tests for `Integer getNumberOfDogs()`
   * ensure that when `.getNumberOfDogs()` is invoked on the `DogHouse`, the respective number of `Dog` objects is returned.
 
+## Part C
+
+### Problem 1
+An upcoming artist's concert is coming to town.
+The concert manager is only allowing one person of a pair to be a "teen".
+Your at the front gate checking tickets and verifying ages.
+You allowed to let a pair in as long as only one person is a teen but both can't be a "teen".
+A "teen" is considered someone within the range of 13...19 inclusive.
+
+Return true if one or the other person in the pair is a teen, but not both.
+
+Example:
+```java
+oneTeen(13, 99) --> true
+oneTeen(21, 19) --> true
+oneTeen(13, 13) --> false
+```
+### Problem 2
+We're on the look-out for ounces "oz" within a string. You will be given a string,
+and you need to determine if the first two characters yields "oz".
+We need you to return a new string made of the first 2 chars (if present).
+
+Only include first char if it is 'o' and only include second char if it is 'z'.
+
+Example:
+```java
+beginWithOz("ozymandias") --> "oz"
+beginWithOz("bzoo") --> "z"
+beginWithOz("oxx") --> "o"
+```

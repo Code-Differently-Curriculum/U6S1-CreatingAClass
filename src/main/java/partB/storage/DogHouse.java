@@ -1,4 +1,4 @@
-package partB.animals.storage;
+package partB.storage;
 
 
 import partB.animals.Dog;

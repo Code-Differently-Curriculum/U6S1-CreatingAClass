@@ -1,6 +1,8 @@
-package partA.ex01;
+package com.codedifferently.labs.partA.ex01;
 
-public class SavingAccountTest {
+import partA.ex01.SavingAccountExample;
+
+public class SavingsAccountTest {
     public static void main(String[] args) {
         SavingAccountExample sa0001 = new SavingAccountExample();
         sa0001.name = "Damien";
