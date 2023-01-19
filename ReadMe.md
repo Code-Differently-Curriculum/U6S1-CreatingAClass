@@ -66,6 +66,9 @@ Below is the UML for the `SavingAccountExample` class in the `partA.ex01` packag
 
 	![](./assets/img05.png)
 
+1. Complete `SavingBondTest` 
+2. Run your code see if what you expected to happen matches up.
+
 ## Part B
 
 ### Test Driven Development (TDD)
